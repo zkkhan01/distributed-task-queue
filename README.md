@@ -5,6 +5,7 @@ Real use case: background job processing, ETAs, notifications, heavy computation
 
 
 A distributed system with:
+
 FastAPI job submission API
 Redis message broker
 Worker nodes with retry + exponential backoff
